@@ -25,42 +25,34 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={remote_app}
+              imgPath={heyoo}
               isBlog={false}
-              title="Andoid Remote App"
-              description="An Andorid Application which can control Smart Tvs through an inbuilt IR blaster or WIFI. Built using Android Studio and Java"
-              ghLink="https://github.com/prizzv/Remote_Android_app"
+              title="Heyoo! Community Discovery App"
+              description="Heyoo! is a community-based mobile application that offers local, global, and nation-based segregation of communities and posts. Users can engage in chat within various communities or create their own chatrooms. I implemented a robust deeplinking system in Flutter. Additionally, I created a scalable architecture in the frontend by utilizing Flutter Hive to store chat data locally, thereby enhancing the chatting process in terms of intuitiveness and speed. In the backend, I employed Socket.io server, Redis, and Kafka to implement scalable chatting for multiple users simultaneously. An efficient rewards system was also implemented."
+
+              demoLink="https://play.google.com/store/apps/details?id=com.heyoo.app.heyoo_app"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={automateInsta}
+              imgPath={muqa}
               isBlog={false}
-              title="Automate Instagram Message"
-              description="The Automate Instagram Message project streamlines the process of sending messages on Instagram through Python and Selenium automation. Utilizing Python's powerful scripting capabilities, coupled with Selenium's web automation functionalities, the project enables users to effortlessly dispatch messages to specified recipients. Enhanced with a user-friendly Graphical User Interface (GUI) developed using Tkinter, the project offers intuitive interaction for users."
-              ghLink="https://github.com/prizzv/Automate-instagram-msg"
+              title="MuQA: Mumbai University Q&Ans"
+              description="MuQA is a mobile application that provides Mumbai University question papers and solutions. I created and deployed an easy-to-use application. Flutter was used to develop the client-side application, while Google AdMob was utilized to display advertisements to the user. Node.js, DynamoDB, and AWS EC2 were employed for the server-side. Additional features include secure connections using SSL certificates. I also focused on database design and API implementation for storing a large amount of question and answer data. Additionally, OpenAI's GPT API was utilized to generate accurate answers for some questions."
+
+              demoLink="https://play.google.com/store/apps/details?id=com.solves.muqa"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={angelsinn}
+              imgPath={godrejite}
               isBlog={false}
-              title="Angels Inn Website"
-              description="This is a dynamic website tailored to meet the needs of a local business, crafted using fundamental web technologies including HTML, CSS, JavaScript, and PHP. With a blend of aesthetic design and functional elements, the website serves as an effective platform for the business to connect with. Utilizing PHP's capabilities, the website seamlessly integrates a contact form feature, streamlining communication between visitors and the business."
-              demoLink="https://angelsinn.in/"
-            />
-          </Col>
+              title="Godrejite 2.0"
+              description="Godrejite is an accumulation of all corporate as well as business specific mobile application available for use by employees of Godrej Industries Limited and Associated Companies. I primarily contributed to creating home screen widgets on both Android and iOS, and deeplinks within the application were created to achieve the desired functionality, utilizing Flutter as a tool for mobile application development. Additionally, I implemented scheduling to check for new notifications on the client side."
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={sellEasy}
-              isBlog={false}
-              title="Sell Easy"
-              description="An auction-based e-commerce website where users can buy products on auction and sellers can post the products for auction. Users active session is tracked using cookies. Products are differentiated by live, upcomming and previous products on auction. These states are maintained dynamically."
-              ghLink="https://github.com/prizzv/Sell-Easy"
-              demoLink="https://sell-easy-6csn.onrender.com/"
+              demoLink="https://play.google.com/store/apps/details?id=biz.apps.godrejcp.godrejite"
             />
           </Col>
 
@@ -78,34 +70,46 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={godrejite}
+              imgPath={sellEasy}
               isBlog={false}
-              title="Godrejite 2.0"
-              description="Godrejite is an accumulation of all corporate as well as business specific mobile application available for use by employees of Godrej Industries Limited and Associated Companies. I primarily contributed to creating home screen widgets on both Android and iOS, and deeplinks within the application were created to achieve the desired functionality, utilizing Flutter as a tool for mobile application development. Additionally, I implemented scheduling to check for new notifications on the client side."
-
-              demoLink="https://play.google.com/store/apps/details?id=biz.apps.godrejcp.godrejite"
+              title="Sell Easy"
+              description="An auction-based e-commerce website where users can buy products on auction and sellers can post the products for auction. Users active session is tracked using cookies. Products are differentiated by live, upcomming and previous products on auction. These states are maintained dynamically."
+              ghLink="https://github.com/prizzv/Sell-Easy"
+              demoLink="https://sell-easy-6csn.onrender.com/"
             />
           </Col>
+
+
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={muqa}
+              imgPath={angelsinn}
               isBlog={false}
-              title="MuQA: Mumbai University Q&Ans"
-              description="MuQA is a mobile application that provides Mumbai University question papers and solutions. I created and deployed an easy-to-use application. Flutter was used to develop the client-side application, while Google AdMob was utilized to display advertisements to the user. Node.js, DynamoDB, and AWS EC2 were employed for the server-side. Additional features include secure connections using SSL certificates. I also focused on database design and API implementation for storing a large amount of question and answer data. Additionally, OpenAI's GPT API was utilized to generate accurate answers for some questions."
-
-              demoLink="https://play.google.com/store/apps/details?id=com.solves.muqa"
+              title="Angels Inn Website"
+              description="This is a dynamic website tailored to meet the needs of a local business, crafted using fundamental web technologies including HTML, CSS, JavaScript, and PHP. With a blend of aesthetic design and functional elements, the website serves as an effective platform for the business to connect with. Utilizing PHP's capabilities, the website seamlessly integrates a contact form feature, streamlining communication between visitors and the business."
+              demoLink="https://angelsinn.in/"
             />
           </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={heyoo}
+              imgPath={automateInsta}
               isBlog={false}
-              title="Heyoo! Community Discovery App"
-              description="Heyoo! is a community-based mobile application that offers local, global, and nation-based segregation of communities and posts. Users can engage in chat within various communities or create their own chatrooms. I implemented a robust deeplinking system in Flutter. Additionally, I created a scalable architecture in the frontend by utilizing Flutter Hive to store chat data locally, thereby enhancing the chatting process in terms of intuitiveness and speed. In the backend, I employed Socket.io server, Redis, and Kafka to implement scalable chatting for multiple users simultaneously. An efficient rewards system was also implemented."
-
-              demoLink="https://play.google.com/store/apps/details?id=com.heyoo.app.heyoo_app"
+              title="Automate Instagram Message"
+              description="The Automate Instagram Message project streamlines the process of sending messages on Instagram through Python and Selenium automation. Utilizing Python's powerful scripting capabilities, coupled with Selenium's web automation functionalities, the project enables users to effortlessly dispatch messages to specified recipients. Enhanced with a user-friendly Graphical User Interface (GUI) developed using Tkinter, the project offers intuitive interaction for users."
+              ghLink="https://github.com/prizzv/Automate-instagram-msg"
             />
           </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={remote_app}
+              isBlog={false}
+              title="Andoid Remote App"
+              description="An Andorid Application which can control Smart Tvs through an inbuilt IR blaster or WIFI. Built using Android Studio and Java"
+              ghLink="https://github.com/prizzv/Remote_Android_app"
+            />
+          </Col>
+
         </Row>
       </Container>
     </Container>
