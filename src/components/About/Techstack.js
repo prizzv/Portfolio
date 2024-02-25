@@ -1,8 +1,8 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import { CgCPlusPlus } from "react-icons/cg";
-import { DiGit, DiJava, DiJavascript1, DiNodejs, DiPostgresql, DiPython, DiReact } from "react-icons/di";
-import { SiFirebase, SiFlask, SiGooglecolab, SiMongodb, SiMysql, SiRedis } from "react-icons/si";
+import { DiGit, DiJava, DiJavascript1, DiNodejs, DiPostgresql, DiPython } from "react-icons/di";
+import { SiFirebase, SiFlask, SiGooglecolab, SiMongodb, SiMysql, SiRedis, SiTypescript, SiExpress, SiNestjs } from "react-icons/si";
 import { FaAndroid } from "react-icons/fa";
 
 import flutterHiveImg from "../../Assets/flutter_hive.png";
@@ -20,7 +20,9 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
       </Col>
-
+      <Col xs={4} md={2} className="tech-icons">
+        <SiTypescript />
+      </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiPython />
       </Col>
@@ -52,6 +54,12 @@ function Techstack() {
         <DiNodejs />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <SiExpress />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiNestjs />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
         <SiFlutter />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
@@ -60,27 +68,15 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiRedis />
       </Col>
-
-
-      <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
-      </Col>
-
-
       <Col xs={4} md={2} className="tech-icons">
         <DiGit />
       </Col>
-
       <Col xs={4} md={2} className="tech-icons">
         <SiFlask />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiGooglecolab />
       </Col>
-
-
-
-
     </Row>
   );
 }

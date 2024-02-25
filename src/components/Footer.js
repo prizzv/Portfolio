@@ -4,8 +4,11 @@ import {
   AiFillGithub,
   AiOutlineTwitter,
   AiFillInstagram,
+
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import { BsTwitterX } from "react-icons/bs";
+import { RiTwitterXFill } from "react-icons/ri";
 
 function Footer() {
   let date = new Date();
@@ -17,7 +20,7 @@ function Footer() {
           <h3>Developed by Shashank Kota</h3>
         </Col>
         <Col md="4" className="footer-copywright">
-          <h3>Copyright © {year} SB</h3>
+          <h3>Copyright © {year} </h3>
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
@@ -33,7 +36,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://twitter.com/Soumyajit4419"
+                href="https://twitter.com/Shashaa57591191"
                 style={{ color: "white" }}
                 target="_blank"
                 rel="noopener noreferrer"
