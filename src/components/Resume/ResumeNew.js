@@ -27,15 +27,16 @@ function ResumeNew() {
             style={{ maxWidth: "250px" }}
           >
             <AiOutlineDownload />
-            &nbsp;Download CV
+            &nbsp;Download Resume
           </Button>
         </Row>
 
-        <Row className="resume">
+        <Container className="resume" style={{ width: '100%' }}>
           <Document file={pdf}>
             <Page pageNumber={1} />
+            <Page pageNumber={2} />
           </Document>
-        </Row>
+        </Container>
 
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
@@ -45,7 +46,7 @@ function ResumeNew() {
             style={{ maxWidth: "250px" }}
           >
             <AiOutlineDownload />
-            &nbsp;Download CV
+            &nbsp;Download Resume
           </Button>
         </Row>
       </Container>

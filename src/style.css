@@ -639,9 +639,12 @@ button:focus {
 }
 
 .resume {
+  position: relative !important;
+  display: flex !important;
   padding-top: 50px;
   padding-bottom: 50px;
-  justify-content: center;
+  justify-content: center !important;
+  width: 100% !important;
 }
 
 .resume-left {
