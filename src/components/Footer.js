@@ -2,13 +2,13 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
   AiFillInstagram,
-
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import { BsTwitterX } from "react-icons/bs";
-import { RiTwitterXFill } from "react-icons/ri";
+import { SiCodeforces } from "react-icons/si";
+import { SiCodechef } from "react-icons/si";
+import { FaStackOverflow } from "react-icons/fa";
 
 function Footer() {
   let date = new Date();
@@ -41,12 +41,12 @@ function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <AiOutlineTwitter />
+                <BsTwitterX />
               </a>
             </li>
             <li className="social-icons">
               <a
-                href="https://www.linkedin.com/in/soumyajit4419/"
+                href="https://www.linkedin.com/in/shashankkota/"
                 style={{ color: "white" }}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -54,16 +54,36 @@ function Footer() {
                 <FaLinkedinIn />
               </a>
             </li>
-            <li className="social-icons">
+            {/* <li className="social-icons">
               <a
-                href="https://www.instagram.com/soumyajit4419"
+                href="https://codeforces.com/profile/prizzv"
                 style={{ color: "white" }}
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <AiFillInstagram />
+                <SiCodeforces />
               </a>
             </li>
+            <li className="social-icons">
+              <a
+                href="https://www.codechef.com/users/prizziv"
+                style={{ color: "white" }}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <SiCodechef />
+              </a>
+            </li>
+            <li className="social-icons">
+              <a
+                href="https://stackoverflow.com/users/18496393/shashaank-kota"
+                style={{ color: "white" }}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaStackOverflow />
+              </a>
+            </li> */}
           </ul>
         </Col>
       </Row>

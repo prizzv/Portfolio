@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from 'react'
+import React, { useState, useRef } from 'react'
 import emailjs from "@emailjs/browser";
 import { Container, Row, Col } from "react-bootstrap";
 import Button from 'react-bootstrap/Button';
@@ -49,7 +49,7 @@ const Contact = () => {
             <Row >
                 <Col md={6} className="c-left" >
                     <h1 >Get in Touch</h1>
-                    <h1 className="yellow">Contact me</h1>
+                    <h1 className="purple">Contact</h1>
                 </Col>
                 <Col md={6} className="c-right">
                     <form ref={form} onSubmit={sendEmail}>

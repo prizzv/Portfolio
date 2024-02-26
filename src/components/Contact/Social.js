@@ -1,11 +1,13 @@
 import React from 'react'
-import { Container, Row, Col } from "react-bootstrap";
+import { Row, Col } from "react-bootstrap";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import { SiCodeforces } from "react-icons/si";
+import { SiCodechef } from "react-icons/si";
+import { FaStackOverflow } from "react-icons/fa";
+import { BsTwitterX } from "react-icons/bs";
 
 
 const Social = () => {
@@ -29,17 +31,17 @@ const Social = () => {
           </li>
           <li className="social-icons">
             <a
-              href="https://twitter.com/Soumyajit4419"
+              href="https://twitter.com/Shashaa57591191"
               target="_blank"
               rel="noreferrer"
               className="icon-colour  home-social-icons"
             >
-              <AiOutlineTwitter />
+              <BsTwitterX />
             </a>
           </li>
           <li className="social-icons">
             <a
-              href="https://www.linkedin.com/in/soumyajit4419/"
+              href="https://www.linkedin.com/in/shashankkota/"
               target="_blank"
               rel="noreferrer"
               className="icon-colour  home-social-icons"
@@ -47,16 +49,36 @@ const Social = () => {
               <FaLinkedinIn />
             </a>
           </li>
-          <li className="social-icons">
+          {/* <li className="social-icons">
             <a
-              href="https://www.instagram.com/soumyajit4419"
+              href="https://codeforces.com/profile/prizzv"
               target="_blank"
               rel="noreferrer"
               className="icon-colour home-social-icons"
             >
-              <AiFillInstagram />
+              <SiCodeforces />
             </a>
           </li>
+          <li className="social-icons">
+            <a
+              href="https://www.codechef.com/users/prizziv"
+              target="_blank"
+              rel="noreferrer"
+              className="icon-colour home-social-icons"
+            >
+              <SiCodechef />
+            </a>
+          </li>
+          <li className="social-icons">
+            <a
+              href="https://stackoverflow.com/users/18496393/shashaank-kota"
+              target="_blank"
+              rel="noreferrer"
+              className="icon-colour home-social-icons"
+            >
+              <FaStackOverflow />
+            </a>
+          </li> */}
         </ul>
       </Col>
     </Row>

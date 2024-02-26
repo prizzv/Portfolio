@@ -29,7 +29,6 @@ function Projects() {
               isBlog={false}
               title="Heyoo! Community Discovery App"
               description="Heyoo! is a community-based mobile application that offers local, global, and nation-based segregation of communities and posts. Users can engage in chat within various communities or create their own chatrooms. I implemented a robust deeplinking system in Flutter. Additionally, I created a scalable architecture in the frontend by utilizing Flutter Hive to store chat data locally, thereby enhancing the chatting process in terms of intuitiveness and speed. In the backend, I employed Socket.io server, Redis, and Kafka to implement scalable chatting for multiple users simultaneously. An efficient rewards system was also implemented."
-
               demoLink="https://play.google.com/store/apps/details?id=com.heyoo.app.heyoo_app"
             />
           </Col>
@@ -40,7 +39,6 @@ function Projects() {
               isBlog={false}
               title="MuQA: Mumbai University Q&Ans"
               description="MuQA is a mobile application that provides Mumbai University question papers and solutions. I created and deployed an easy-to-use application. Flutter was used to develop the client-side application, while Google AdMob was utilized to display advertisements to the user. Node.js, DynamoDB, and AWS EC2 were employed for the server-side. Additional features include secure connections using SSL certificates. I also focused on database design and API implementation for storing a large amount of question and answer data. Additionally, OpenAI's GPT API was utilized to generate accurate answers for some questions."
-
               demoLink="https://play.google.com/store/apps/details?id=com.solves.muqa"
             />
           </Col>
@@ -51,7 +49,6 @@ function Projects() {
               isBlog={false}
               title="Godrejite 2.0"
               description="Godrejite is an accumulation of all corporate as well as business specific mobile application available for use by employees of Godrej Industries Limited and Associated Companies. I primarily contributed to creating home screen widgets on both Android and iOS, and deeplinks within the application were created to achieve the desired functionality, utilizing Flutter as a tool for mobile application development. Additionally, I implemented scheduling to check for new notifications on the client side."
-
               demoLink="https://play.google.com/store/apps/details?id=biz.apps.godrejcp.godrejite"
             />
           </Col>
