@@ -44,7 +44,7 @@ const Contact = () => {
     };
 
     return (
-        <Container style={{ paddingTop: '100px' }} >
+        <Container fluid className='contact-section' >
             <Particle />
             <Row >
                 <Col md={6} className="c-left" >

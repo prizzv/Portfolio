@@ -49,7 +49,7 @@ const Social = () => {
               <FaLinkedinIn />
             </a>
           </li>
-          {/* <li className="social-icons">
+          <li className="social-icons">
             <a
               href="https://codeforces.com/profile/prizzv"
               target="_blank"
@@ -78,7 +78,7 @@ const Social = () => {
             >
               <FaStackOverflow />
             </a>
-          </li> */}
+          </li>
         </ul>
       </Col>
     </Row>

@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
-
+import About from "../About/About";
 
 import Social from "../Contact/Social";
 
@@ -39,8 +39,12 @@ function Home2() {
           </Col>
         </Row>
         <Row>
+          <About />
+        </Row>
+        <Row>
           <Social />
         </Row>
+
       </Container>
     </Container >
   );

@@ -7,6 +7,13 @@
     padding-top: 3rem;
 }
 
+.contact-section {
+    position: relative;
+    padding-bottom: 70px !important;
+    padding-top: 100px !important;
+    background-image: var(--section-background-color) !important;
+}
+
 .c-left {
     text-align: center !important;
     padding-top: 25px;
@@ -33,14 +40,14 @@
     height: 3rem;
     padding: 0.3em;
     outline: none;
-    border: 2px solid #40008a;
+    border: 2px solid #00198a;
     border-radius: 8px;
     font-size: 19px;
     color: white
 }
 
 .c-right .user:hover {
-    box-shadow: 0 0 9px #7500fa;
+    box-shadow: 0 0 9px #0c0ea5;
 }
 
 input {

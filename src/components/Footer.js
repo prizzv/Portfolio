@@ -27,7 +27,7 @@ function Footer() {
             <li className="social-icons">
               <a
                 href="https://github.com/prizzv"
-                style={{ color: "white" }}
+                style={{ color: "#eccb0c" }}
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -37,7 +37,7 @@ function Footer() {
             <li className="social-icons">
               <a
                 href="https://twitter.com/Shashaa57591191"
-                style={{ color: "white" }}
+                style={{ color: "#eccb0c" }}
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -47,17 +47,17 @@ function Footer() {
             <li className="social-icons">
               <a
                 href="https://www.linkedin.com/in/shashankkota/"
-                style={{ color: "white" }}
+                style={{ color: "#eccb0c" }}
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <FaLinkedinIn />
               </a>
             </li>
-            {/* <li className="social-icons">
+            <li className="social-icons">
               <a
                 href="https://codeforces.com/profile/prizzv"
-                style={{ color: "white" }}
+                style={{ color: "#eccb0c" }}
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -67,7 +67,7 @@ function Footer() {
             <li className="social-icons">
               <a
                 href="https://www.codechef.com/users/prizziv"
-                style={{ color: "white" }}
+                style={{ color: "#eccb0c" }}
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -77,13 +77,13 @@ function Footer() {
             <li className="social-icons">
               <a
                 href="https://stackoverflow.com/users/18496393/shashaank-kota"
-                style={{ color: "white" }}
+                style={{ color: "#eccb0c" }}
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <FaStackOverflow />
               </a>
-            </li> */}
+            </li>
           </ul>
         </Col>
       </Row>
